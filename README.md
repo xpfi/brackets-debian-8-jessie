@@ -7,7 +7,7 @@ THIS IS FOR DEBIAN JESSIE 64 BIT!
 
 `$ sudo apt-get install wget` 
 
-`$ wget -O brackets.deb https://github.com/xpfi/brackets-debian-8-jessie/releases/download/1.3.0-16022/brackets64deb.deb`
+`$ wget -O brackets.deb https://github.com/xpfi/brackets-debian-8-jessie-64bit/releases/download/1.3.0-16022/brackets64deb.deb`
 
 `$ sudo dpkg -i brackets.deb`
 
