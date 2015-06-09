@@ -6,7 +6,18 @@ this fixes some shit of brackets for Debian 8 Jessie e.g. libcrypt20
 
 # Update
 I just fixed the libcrypt thing and uploaded everything.
-How to install this version of brackets:
+
+
+# Install by downloading the .deb from github
+
+`sudo apt-get install wget` 
+
+`wget -O brackets.deb https://github.com/xpfi/brackets-debian-8-jessie-64bit/archive/master.zip`
+
+`sudo dpkg -i brackets.deb`
+
+
+# Install by downloading git and creating a deb-package by yourself
 
 Install git via apt
 **sudo apt-get install git**
@@ -22,3 +33,4 @@ Create a .deb file
 
 Install the .deb-File
 **sudo dpkg -i brackets-debian-8-jessie.deb**
+
